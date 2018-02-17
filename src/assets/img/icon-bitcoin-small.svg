@@ -1,16 +1,57 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="12px" height="16px" viewBox="0 0 12 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 40.1 (33804) - http://www.bohemiancoding.com/sketch -->
-    <title>Bitcoin_Symbol</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.8">
-        <g id="Address-(Bitcoin)" transform="translate(-11.000000, -12.000000)" fill="#5D5D5D">
-            <g id="Items/Bitcoin-Address">
-                <g id="Items/Bitcoin-Address-Copy">
-                    <path d="M19.6342548,15.1610219 L20.1628282,12.9767055 L18.8173687,12.6561808 L18.3048127,14.7930121 C17.9484261,14.7099131 17.5880351,14.6268141 17.2316485,14.5555864 L17.7442045,12.4187551 L16.3827276,12.0982304 L15.8541542,14.2825468 C15.5658415,14.2152762 15.2735244,14.163834 14.9852116,14.0965634 L13.1312004,13.6573258 L12.7908312,15.0700087 C12.7908312,15.0700087 13.7959215,15.2876489 13.7598824,15.3074344 C14.3044732,15.4419756 14.4085861,15.7941571 14.3885644,16.0632396 L13.7919172,18.5522523 C13.8279562,18.5680807 13.8760084,18.5680807 13.9280648,18.6036945 C13.8760084,18.5878661 13.8439736,18.5878661 13.7919172,18.5720378 L12.975031,22.0542813 C12.9069572,22.2204793 12.7347704,22.457905 12.3623664,22.374806 C12.3783838,22.3906344 11.3732935,22.1373803 11.3732935,22.1373803 L10.7366028,23.6687761 L12.4905054,24.0723998 C12.8148572,24.1554988 13.1392091,24.2227694 13.4435392,24.3098255 L12.9149658,26.5139274 L14.2604254,26.8344521 L14.7889988,24.6501356 C15.1654071,24.749063 15.5217937,24.8361191 15.8621629,24.9192181 L15.3335895,27.0877061 L16.6790491,27.4082308 L17.2076225,25.2041289 C19.5061158,25.6077526 21.2239794,25.4217691 21.9207352,23.3522085 C22.4813433,21.7020999 21.8686787,20.7603113 20.6433495,20.1390474 C21.5403225,19.9372355 22.1890262,19.3634568 22.3572087,18.1881996 C22.5774476,16.5737048 21.336101,15.7308436 19.6342548,15.1610219 Z M19.3299247,22.4737334 C18.937499,24.123842 16.1144366,23.2651524 15.2094549,23.0475122 L15.9062107,20.1192619 C16.8272098,20.3408592 19.7383678,20.7444829 19.3299247,22.4737334 L19.3299247,22.4737334 Z M19.7023287,18.1881996 C19.3459421,19.6839814 16.9953922,18.9637902 16.2305626,18.7778067 L16.8792663,16.122596 C17.6280786,16.3046223 20.078737,16.625147 19.7023287,18.1881996 L19.7023287,18.1881996 Z" id="Bitcoin_Symbol" transform="translate(16.559574, 19.753231) rotate(-13.000000) translate(-16.559574, -19.753231) "></path>
-                </g>
-            </g>
-        </g>
-    </g>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 14.79 17.540001"
+   version="1.1"
+   id="svg3898"
+   sodipodi:docname="icon-bitcoin-small.svg"
+   inkscape:version="0.92.2 5c3e80d, 2017-08-06"
+   width="14.79"
+   height="17.540001">
+  <metadata
+     id="metadata3904">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs3902" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="956"
+     inkscape:window-height="1044"
+     id="namedview3900"
+     showgrid="false"
+     units="mm"
+     inkscape:zoom="20.48"
+     inkscape:cx="6.5174186"
+     inkscape:cy="4.3919655"
+     inkscape:window-x="960"
+     inkscape:window-y="16"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg3898" />
+  <path
+     d="M 14.79,0 H 12.325 L 9.21679,7.51714 H 5.57706 L 2.465,0 H 0 L 1.84875,4.385 H 0 V 6.26429 H 2.63832 L 3.16984,7.51714 H 0 V 9.39643 H 3.95941 L 7.395,17.54 10.83059,9.39643 H 14.79 V 7.51714 H 11.62016 L 12.15168,6.26429 H 14.79 V 4.385 H 12.94125 Z M 7.395,11.90214 6.35508,9.39643 h 2.07984 z"
+     id="path3896"
+     inkscape:connector-curvature="0"
+     style="fill:#5d5d5d;fill-opacity:1;stroke-width:0.0388324" />
 </svg>
