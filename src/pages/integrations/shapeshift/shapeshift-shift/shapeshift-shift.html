@@ -9,7 +9,7 @@
     <div *ngIf="fromWallets.length > 0">
       <ion-item>
         <span translate>From</span>
-        <img item-end *ngIf="fromWallet.coin == 'btc'" src="assets/img/icon-bitcoin.svg" width="18">
+        <img item-end *ngIf="fromWallet.coin == 'via'" src="assets/img/icon-bitcoin.svg" width="18">
         <img item-end *ngIf="fromWallet.coin == 'bch'" src="assets/img/bitcoin-cash-logo.svg" width="22">
       </ion-item>
       <button ion-item class="wallet-selector" (click)="showWallets('from')">
@@ -46,7 +46,7 @@
     <div *ngIf="toWallets.length > 0">
       <ion-item>
         <span translate>To</span>
-        <img item-end *ngIf="toWallet.coin == 'btc'" src="assets/img/icon-bitcoin.svg" width="18">
+        <img item-end *ngIf="toWallet.coin == 'via'" src="assets/img/icon-bitcoin.svg" width="18">
         <img item-end *ngIf="toWallet.coin == 'bch'" src="assets/img/bitcoin-cash-logo.svg" width="22">
       </ion-item>
       <button ion-item class="wallet-selector" (click)="showWallets('to')">

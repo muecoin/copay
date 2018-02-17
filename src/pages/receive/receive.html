@@ -52,7 +52,6 @@
     <div *ngIf="wallets[0]" class="receive-content">
       <div *ngIf="wallet && wallet.isComplete() && !wallet.needsBackup" class="address-container">
         <div class="text-address ellipsis">
-          <img src="assets/img/icon-bitcoin-small.svg" alt="BTC" width="12" />
           <span class="address-divider"></span>
           <div [ngClass]="{'fade-in-out': playAnimation}" (click)="showFullAddr()" class="address-text ellipsis">
             <span copy-to-clipboard="{{ address }}" hide-toast="true">{{ address }}</span>

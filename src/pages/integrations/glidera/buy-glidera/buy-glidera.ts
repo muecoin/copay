@@ -55,7 +55,7 @@ export class BuyGlideraPage {
     private walletProvider: WalletProvider,
     private modalCtrl: ModalController
   ) {
-    this.coin = 'btc';
+    this.coin = 'via';
     this.isCordova = this.platformProvider.isCordova;
   }
 

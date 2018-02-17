@@ -24,7 +24,7 @@ export class WalletSelectorComponent extends ActionSheetParent {
   }
 
   private separateWallets(): void {
-    this.walletsBtc = this.wallets.filter(wallet => wallet.coin === 'btc');
+    this.walletsBtc = this.wallets.filter(wallet => wallet.coin === 'via');
     this.walletsBch = this.wallets.filter(wallet => wallet.coin === 'bch');
   }
 
