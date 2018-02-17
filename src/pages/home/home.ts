@@ -368,7 +368,7 @@ export class HomePage {
     () => {
       this.wallets = this.profileProvider.getWallets();
       this.walletsBtc = _.filter(this.wallets, (x: any) => {
-        return x.credentials.coin == 'btc';
+        return x.credentials.coin == 'via';
       });
       this.walletsBch = _.filter(this.wallets, (x: any) => {
         return x.credentials.coin == 'bch';
