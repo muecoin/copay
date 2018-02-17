@@ -747,7 +747,7 @@ export class ConfirmPage extends WalletTabsChild {
     if (this.paymentExpired) {
       this.popupProvider.ionicAlert(
         null,
-        this.translate.instant('This bitcoin payment request has expired.')
+        this.translate.instant('This viacoin payment request has expired.')
       );
       return undefined;
     }
