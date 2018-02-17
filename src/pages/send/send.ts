@@ -90,7 +90,7 @@ export class SendPage extends WalletTabsChild {
   }
 
   ionViewWillEnter() {
-    this.walletsBtc = this.profileProvider.getWallets({ coin: 'btc' });
+    this.walletsBtc = this.profileProvider.getWallets({ coin: 'via' });
     this.walletsBch = this.profileProvider.getWallets({ coin: 'bch' });
     this.hasBtcWallets = !_.isEmpty(this.walletsBtc);
     this.hasBchWallets = !_.isEmpty(this.walletsBch);

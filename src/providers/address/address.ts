@@ -13,13 +13,13 @@ export class AddressProvider {
     this.bitcore = this.bwcProvider.getBitcore();
     this.bitcoreCash = this.bwcProvider.getBitcoreCash();
     this.Bitcore = {
-      btc: {
+      via: {
         lib: this.bitcore,
         translateTo: 'bch'
       },
       bch: {
         lib: this.bitcoreCash,
-        translateTo: 'btc'
+        translateTo: 'via'
       }
     };
   }
@@ -27,8 +27,8 @@ export class AddressProvider {
   public getCoin(address: string) {
     address = address.replace(/^(bitcoincash:|bchtest:|bitcoin:)/i, '');
     try {
-      new this.Bitcore['btc'].lib.Address(address);
-      return 'btc';
+      new this.Bitcore['via'].lib.Address(address);
+      return 'via';
     } catch (e) {
       try {
         new this.Bitcore['bch'].lib.Address(address);

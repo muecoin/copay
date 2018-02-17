@@ -52,7 +52,7 @@ export class TourPage {
       let btcAmount = 1;
       this.localCurrencySymbol = '$';
       this.localCurrencyPerBtc = this.txFormatProvider.formatAlternativeStr(
-        'btc',
+        'via',
         btcAmount * 1e8
       );
     });
