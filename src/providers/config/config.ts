@@ -140,7 +140,7 @@ const configDefault: Config = {
 
   // Bitcore wallet service URL
   bws: {
-    url: 'https://bws.bitpay.com/bws/api'
+    url: 'https://vws.viacoin.org/bws/api'
   },
 
   download: {
