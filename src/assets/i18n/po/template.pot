@@ -120,6 +120,7 @@ msgid "All addresses"
 msgstr ""
 
 msgid ""
+<<<<<<< HEAD:src/assets/i18n/po/template.pot
 "All of your viacoin wallet balance may not be available for immediate "
 "spending."
 msgstr ""
@@ -235,6 +236,7 @@ msgid "Balance Hidden"
 msgstr ""
 
 msgid ""
+<<<<<<< HEAD:src/assets/i18n/po/template.pot
 "Be sure to store your recovery phrase in a secure place. If this app is "
 "deleted, your money cannot be recovered without it."
 msgstr ""
