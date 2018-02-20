@@ -1,5 +1,5 @@
 {
-  "packageName": "copay",
+  "packageName": "copay-viacoin",
   "packageDescription": "Copay Viacoin Wallet",
   "packageNameId": "org.viacoin.copay",
   "themeColor": "#192c3a",
