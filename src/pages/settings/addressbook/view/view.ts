@@ -42,7 +42,7 @@ export class AddressbookViewPage {
       this.address,
       'livenet'
     );
-    this.coin = cashAddress ? 'bch' : 'btc';
+    this.coin = cashAddress ? 'bch' : 'via';
   }
 
   ionViewDidLoad() {}
