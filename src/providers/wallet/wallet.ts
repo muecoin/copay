@@ -1643,7 +1643,7 @@ export class WalletProvider {
     if (coin == 'bch') {
       return network == 'testnet' ? 'bchtest' : 'bitcoincash';
     } else {
-      return 'bitcoin';
+      return 'viacoin';
     }
   }
 
