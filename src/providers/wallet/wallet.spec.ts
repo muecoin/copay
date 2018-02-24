@@ -133,7 +133,7 @@ describe('Provider: Wallet Provider', () => {
     it('should return bitcoin if coin is btc', () => {
       let coin = 'via';
       let protocol = walletProvider.getProtocolHandler(coin);
-      expect(protocol).toEqual('bitcoin');
+      expect(protocol).toEqual('viacoin');
     });
   });
 });
