@@ -41,7 +41,7 @@
   "homepage": "https://copay.io",
   "license": "MIT",
   "repository": {
-    "url": "git://github.com/viacoin/copay.git",
+    "url": "git://github.com/bitpay/copay.git",
     "type": "git"
   },
   "bugs": {
