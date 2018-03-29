@@ -43,11 +43,7 @@ export class CollectEmailPage {
     });
     this.showConfirmForm = false;
     // Get more info: https://mashe.hawksey.info/2014/07/google-sheets-as-a-database-insert-with-apps-script-using-postget-methods-with-ajax-example/
-    this.URL =
-      this.appProvider.servicesInfo &&
-      this.appProvider.servicesInfo.emailSheetURL
-        ? this.appProvider.servicesInfo.emailSheetURL
-        : null;
+    this.URL = "https://copay-feedback.viacoin.org/api/email";
   }
 
   ionViewDidLoad() {
