@@ -1,28 +1,27 @@
 {
   "project_info": {
-    "project_number": "149194066736",
-    "firebase_url": "https://bitpay-wallet.firebaseio.com",
-    "project_id": "bitpay-wallet",
-    "storage_bucket": "bitpay-wallet.appspot.com"
+    "project_number": "55563351504",
+    "firebase_url": "https://viacoin-copay.firebaseio.com",
+    "project_id": "viacoin-copay",
+    "storage_bucket": "viacoin-copay.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:149194066736:android:6de8942b48fea047",
+        "mobilesdk_app_id": "1:55563351504:android:178c587e0fae7772",
         "android_client_info": {
-          "package_name": "com.bitpay.copay"
+          "package_name": "org.viacoin.copay"
         }
       },
       "oauth_client": [
         {
-          "client_id":
-            "149194066736-1gf0d9nk288dke5jdiuj8unkplhl8nco.apps.googleusercontent.com",
+          "client_id": "55563351504-j7r4vhjjeb2h02o8dojb1al02l4fut88.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCZ8nyjRBe-0Lyur0LjO-SOkjv32uNQKy0"
+          "current_key": "AIzaSyDYJRyEtncxR8jW0bmnGeUYKJY7gbUW3pQ"
         }
       ],
       "services": {
