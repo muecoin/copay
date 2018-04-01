@@ -145,10 +145,10 @@ const configDefault: Config = {
 
   download: {
     bitpay: {
-      url: 'https://bitpay.com/wallet'
+      url: 'https://play.google.com/apps/testing/org.viacoin.copay'
     },
     copay: {
-      url: 'https://copay.io/#download'
+      url: 'https://play.google.com/apps/testing/org.viacoin.copay'
     }
   },
 
@@ -161,8 +161,8 @@ const configDefault: Config = {
       wp: ''
     },
     copay: {
-      ios: 'https://itunes.apple.com/app/copay-bitcoin-wallet/id951330296',
-      android: 'https://play.google.com/store/apps/details?id=com.bitpay.copay',
+      ios: 'http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?id=951330296&pageNumber=0&sortOrdering=2&type=Purple+Software&mt=8',
+      android: 'https://play.google.com/store/apps/details?id=org.viacoin.copay',
       wp: ''
     }
   },
@@ -194,7 +194,7 @@ const configDefault: Config = {
   },
 
   release: {
-    url: 'https://api.github.com/repos/bitpay/copay/releases/latest'
+    url: 'https://api.github.com/repos/viacoin/copay/releases/latest'
   },
 
   pushNotificationsEnabled: true,
