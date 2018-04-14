@@ -96,7 +96,7 @@ export class ImportWalletPage {
       derivationPath: [this.derivationPathByDefault, Validators.required],
       testnetEnabled: [false],
       bwsURL: [this.defaults.bws.url],
-      coin: [null, Validators.required]
+      coin: ['via', Validators.required]
     });
     this.events.subscribe('update:words', data => {
       this.processWalletInfo(data.value);
