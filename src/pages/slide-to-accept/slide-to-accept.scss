@@ -113,8 +113,8 @@ page-slide-to-accept {
       z-index: 10;
 
       > img {
-        -webkit-transform: rotateZ(-5deg);
-        transform: rotateZ(-5deg);
+          width: 32px;
+          opacity: 0.7;
       }
     }
     &__button-text {
