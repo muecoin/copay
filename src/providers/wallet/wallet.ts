@@ -1207,7 +1207,7 @@ export class WalletProvider {
       prefs.language = this.languageProvider.getCurrent();
 
       // Set OLD wallet in bits to btc
-      prefs.unit = 'btc'; // DEPRECATED
+      prefs.unit = 'via'; // DEPRECATED
 
       updateRemotePreferencesFor(lodash.clone(clients), prefs)
         .then(() => {
