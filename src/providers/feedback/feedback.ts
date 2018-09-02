@@ -2,7 +2,6 @@ import { HttpClient, HttpHeaders, HttpParams } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 
 // providers
-import { AppProvider } from '../../providers/app/app';
 import { Logger } from '../../providers/logger/logger';
 
 @Injectable()
