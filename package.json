@@ -1,6 +1,6 @@
 {
-  "name": "copay",
-  "description": "A Secure Bitcoin Wallet",
+  "name": "copay-viacoin",
+  "description": "A Secure Viacoin Wallet",
   "author": "BitPay",
   "version": "4.8.0",
   "keywords": [
@@ -12,11 +12,11 @@
     "bitcore"
   ],
   "main": "www/index.html",
-  "title": "Copay",
+  "title": "Viacoin Copay",
   "user-agent": "%name %ver (%osinfo)",
   "chromium-args": "--disable-password-generation --disable-devtools",
   "window": {
-    "title": "Copay – Copay Bitcoin Wallet",
+    "title": "Viacoin Copay – Copay Viacoin Wallet",
     "icon": "www/assets/img/app/icon.png",
     "toolbar": false,
     "show": false,
@@ -38,14 +38,14 @@
   },
   "dom_storage_quota": 200,
   "id": "jid1-x7bV5evAaI1P9Q",
-  "homepage": "https://copay.io",
+  "homepage": "https://viacoin.org",
   "license": "MIT",
   "repository": {
-    "url": "git://github.com/bitpay/copay.git",
+    "url": "git://github.com/viacoin/copay.git",
     "type": "git"
   },
   "bugs": {
-    "url": "https://github.com/bitpay/copay/issues"
+    "url": "https://github.com/viacoin/copay/issues"
   },
   "scripts": {
     "postinstall": "sed -i  -e \"s/.*require(...\\/...);//g\" node_modules/asn1.js-rfc5280/index.js && run-s e2e:update env:dev prompt",
@@ -144,7 +144,7 @@
     "@zxing/ngx-scanner": "1.2.1",
     "angular2-moment": "1.7.1",
     "bitauth": "git+https://github.com/bitpay/bitauth.git#copay",
-    "bitcore-wallet-client": "6.7.5",
+    "bitcore-wallet-client": "https://github.com/viacoin/viacore-wallet-client.git",
     "buffer-compare": "1.1.1",
     "cordova": "8.0.0",
     "cordova-android": "7.1.1",
@@ -266,7 +266,7 @@
       "cordova-custom-config": {},
       "cordova-plugin-customurlscheme": {
         "URL_SCHEME": "bitcoin",
-        "SECOND_URL_SCHEME": "copay",
+        "SECOND_URL_SCHEME": "copay-viacoin",
         "THIRD_URL_SCHEME": "bitcoincash",
         "ANDROID_SCHEME": " ",
         "ANDROID_HOST": " ",
