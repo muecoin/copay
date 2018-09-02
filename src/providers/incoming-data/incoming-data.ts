@@ -369,7 +369,6 @@ export class IncomingDataProvider {
       this.handleBitcoinUri(data, redirParams);
       return true;
 
-<<<<<<< HEAD
       // Bitcoin Cash URI
     } else if (this.isValidBitcoinCashUri(data)) {
       this.handleBitcoinCashUri(data, redirParams);
@@ -384,46 +383,6 @@ export class IncomingDataProvider {
     } else if (this.isValidPlainUrl(data)) {
       this.handlePlainUrl(data);
       return true;
-=======
-      let coin = 'via'; // Assume BTC
-
-      this.payproProvider.getPayProDetails(data, coin, true).then((details) => {
-        this.handlePayPro(details, coin);
-        return true;
-      }).catch(() => {
-        this.showMenu({
-          data,
-          type: 'url'
-        });
-        return;
-      });
-      // Plain Address
-    } else if (this.bwcProvider.getBitcore().Address.isValid(data, 'livenet') || this.bwcProvider.getBitcore().Address.isValid(data, 'testnet')) {
-      this.logger.debug('Handling Bitcoin Plain Address');
-      if (this.navCtrl.getActive().name === 'ScanPage') {
-        this.showMenu({
-          data,
-          type: 'bitcoinAddress',
-          coin: 'via'
-        });
-      } else {
-        let coin = 'via';
-        this.goToAmountPage(data, coin);
-      }
-    } else if (this.bwcProvider.getBitcoreCash().Address.isValid(data, 'livenet') || this.bwcProvider.getBitcoreCash().Address.isValid(data, 'testnet')) {
-      this.logger.debug('Handling Bitcoin Cash Plain Address');
-      if (this.navCtrl.getActive().name === 'ScanPage') {
-        this.showMenu({
-          data,
-          type: 'bitcoinAddress',
-          coin: 'bch',
-        });
-      } else {
-        let coin = 'bch';
-        this.goToAmountPage(data, coin);
-      }
-    } else if (data && data.indexOf(this.appProvider.info.name + '://glidera') === 0) {
->>>>>>> b5d330aed... Viacoin: replaced most occurences of "btc" to "via"
 
       // Plain Address (Bitcoin)
     } else if (this.isValidBitcoinAddress(data)) {
