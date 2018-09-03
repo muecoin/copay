@@ -252,6 +252,7 @@ export class WalletDetailsPage extends WalletTabsChild {
     this.walletNotRegistered = false;
     this.showBalanceButton = false;
 
+
     this.walletProvider
       .getStatus(this.wallet, { force: !!force })
       .then(status => {
