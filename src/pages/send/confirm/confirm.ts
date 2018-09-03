@@ -523,7 +523,7 @@ export class ConfirmPage extends WalletTabsChild {
 
           if (txp.feeTooHigh) {
             const coinName =
-              this.wallet.coin === Coin.BTC ? 'Bitcoin' : 'Bitcoin Cash';
+              this.wallet.coin === Coin.BTC ? 'Viacoin' : 'Bitcoin Cash';
             const minerFeeInfoSheet = this.actionSheetProvider.createInfoSheet(
               'miner-fee',
               { coinName }
@@ -578,7 +578,7 @@ export class ConfirmPage extends WalletTabsChild {
     let warningMsg = this.verifyExcludedUtxos(wallet, sendMaxInfo);
 
     const coinName =
-      this.wallet.coin === Coin.BTC ? 'Bitcoin (BTC)' : 'Bitcoin Cash (BCH)';
+      this.wallet.coin === Coin.BTC ? 'Viacoin (VIA)' : 'Bitcoin Cash (BCH)';
 
     const minerFeeNoticeInfoSheet = this.actionSheetProvider.createInfoSheet(
       'miner-fee-notice',
