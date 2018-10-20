@@ -268,7 +268,7 @@ export class BackupGamePage {
       .then(() => {
         this.onGoingProcessProvider.clear();
         const walletType =
-          this.wallet.coin === 'btc' ? 'bitcoin' : 'bitcoin cash';
+          this.wallet.coin === 'via' ? 'viacoin' : 'bitcoin cash';
         const infoSheet = this.actionSheetProvider.createInfoSheet(
           'backup-ready',
           { walletType }
