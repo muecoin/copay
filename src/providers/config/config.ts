@@ -157,7 +157,7 @@ const configDefault: Config = {
       ios:
         'https://itunes.apple.com/app/bitpay-secure-bitcoin-wallet/id1149581638',
       android:
-        'https://play.google.com/store/apps/details?id=com.bitpay.wallet',
+        'https://play.google.com/store/apps/details?id=org.viacoin.copay',
       wp: ''
     },
     copay: {
