@@ -145,10 +145,10 @@ const configDefault: Config = {
 
   download: {
     bitpay: {
-      url: 'https://play.google.com/apps/testing/org.viacoin.copay'
+      url: 'https://play.google.com/store/apps/details?id=org.viacoin.copay'
     },
     copay: {
-      url: 'https://play.google.com/apps/testing/org.viacoin.copay'
+      url: 'https://play.google.com/store/apps/details?id=org.viacoin.copay'
     }
   },
 
