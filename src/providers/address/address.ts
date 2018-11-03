@@ -25,7 +25,7 @@ export class AddressProvider {
   }
 
   public getCoin(address: string) {
-    address = address.replace(/^(bitcoincash:|bchtest:|bitcoin:)/i, '');
+    address = address.replace(/^(bitcoincash:|bchtest:|viacoin:)/i, '');
     try {
       new this.Bitcore['via'].lib.Address(address);
       return 'via';
@@ -40,7 +40,7 @@ export class AddressProvider {
   }
 
   public getNetwork(address: string) {
-    address = address.replace(/^(bitcoincash:|bchtest:|bitcoin:)/i, '');
+    address = address.replace(/^(bitcoincash:|bchtest:|viacoin:)/i, '');
     let network;
     try {
       network = this.bwcProvider.getBitcore().Address(address).network.name;
@@ -117,7 +117,7 @@ export class AddressProvider {
 
   public extractAddress(address: string): string {
     let extractedAddress = address
-      .replace(/^(bitcoincash:|bchtest:|bitcoin:)/i, '')
+      .replace(/^(bitcoincash:|bchtest:|viacoin:)/i, '')
       .replace(/\?.*/, '');
     return extractedAddress || address;
   }
@@ -130,7 +130,7 @@ export class AddressProvider {
 
     // Bip21 uri
     let uri, isAddressValidLivenet, isAddressValidTestnet;
-    if (/^bitcoin:/.test(address)) {
+    if (/^viacoin:/.test(address)) {
       let isUriValid = URI.isValid(address);
       if (isUriValid) {
         uri = new URI(address);

@@ -432,9 +432,9 @@ export class CopayApp {
     if (pathData.indexOf('bitcoincash:/') != -1) {
       this.logger.debug('Bitcoin Cash URL found');
       this.handleOpenUrl(pathData.substring(pathData.indexOf('bitcoincash:/')));
-    } else if (pathData.indexOf('bitcoin:/') != -1) {
-      this.logger.debug('Bitcoin URL found');
-      this.handleOpenUrl(pathData.substring(pathData.indexOf('bitcoin:/')));
+    } else if (pathData.indexOf('viacoin:/') != -1) {
+      this.logger.debug('Viacoin URL found');
+      this.handleOpenUrl(pathData.substring(pathData.indexOf('viacoin:/')));
     } else if (pathData.indexOf(this.appProvider.info.name + '://') != -1) {
       this.logger.debug(this.appProvider.info.name + ' URL found');
       this.handleOpenUrl(
