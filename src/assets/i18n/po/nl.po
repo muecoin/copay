@@ -113,8 +113,8 @@ msgstr ""
 msgid "All addresses"
 msgstr ""
 
-msgid "All of your bitcoin wallet balance may not be available for immediate spending."
-msgstr "Mogelijk is niet het volledige saldo van uw bitcoin portemonnee direct beschikbaar voor uitgaven."
+msgid "All of your viacoin wallet balance may not be available for immediate spending."
+msgstr "Mogelijk is niet het volledige saldo van uw viacoin portemonnee direct beschikbaar voor uitgaven."
 
 msgid "Allow camera access"
 msgstr ""
@@ -149,14 +149,14 @@ msgstr "Bedrag te groot"
 msgid "An update to this app is available. For your security, please update to the latest version."
 msgstr "Er is een update voor deze app beschikbaar. Update a.u.b. naar de nieuwste versie voor uw veiligheid."
 
-msgid "Anyone with your recovery phrase can access or spend your bitcoin."
+msgid "Anyone with your recovery phrase can access or spend your viacoin."
 msgstr ""
 
 msgid "Apply changes"
 msgstr ""
 
-msgid "Approximate Bitcoin network fee to transfer wallet's balance (with normal priority)"
-msgstr "Geschatte Bitcoin netwerk transactiekosten voor overdracht van volledige saldo van portemonnee (met normale prioriteit)"
+msgid "Approximate Viacoin network fee to transfer wallet's balance (with normal priority)"
+msgstr "Geschatte Viacoin netwerk transactiekosten voor overdracht van volledige saldo van portemonnee (met normale prioriteit)"
 
 msgid "Archive Card"
 msgstr ""
@@ -233,8 +233,8 @@ msgstr ""
 msgid "BitPay Card URI"
 msgstr ""
 
-msgid "Bitcoin Address"
-msgstr "Bitcoin Adres"
+msgid "Viacoin Address"
+msgstr "Viacoin Adres"
 
 msgid "Bitcoin Cash Address"
 msgstr ""
@@ -245,32 +245,32 @@ msgstr ""
 msgid "Bitcoin Cash Wallets"
 msgstr "Bitcoin Cash Portemonnees"
 
-msgid "Bitcoin Network Fee Policy"
-msgstr "Transactiekostenbeleid Bitcoin-netwerk"
+msgid "Viacoin Network Fee Policy"
+msgstr "Transactiekostenbeleid Viacoin-netwerk"
 
-msgid "Bitcoin URI"
+msgid "Viacoin URI"
 msgstr ""
 
-msgid "Bitcoin Wallets"
-msgstr "Bitcoin Portemonnees"
+msgid "Viacoin Wallets"
+msgstr "Viacoin Portemonnees"
 
-msgid "Bitcoin is a currency."
-msgstr "Bitcoin is een valuta."
+msgid "Viacoin is a currency."
+msgstr "Viacoin is een valuta."
 
-msgid "Bitcoin is different - it cannot be safely held with a bank or web service."
+msgid "Viacoin is different - it cannot be safely held with a bank or web service."
 msgstr ""
 
-msgid "Bitcoin is secure, digital money."
+msgid "Viacoin is secure, digital money."
 msgstr ""
 
-msgid "Bitcoin miner fee:"
+msgid "Viacoin miner fee:"
 msgstr ""
 
-msgid "Bitcoin network fee policy"
+msgid "Viacoin network fee policy"
 msgstr ""
 
-msgid "Bitcoin transactions include a fee collected by miners on the network."
-msgstr "Bitcoin transacties bevatten transactiekosten betaald aan de miners in het netwerk."
+msgid "Viacoin transactions include a fee collected by miners on the network."
+msgstr "Viacoin transacties bevatten transactiekosten betaald aan de miners in het netwerk."
 
 msgid "Broadcast Payment"
 msgstr "Betaling Verzenden"
@@ -551,8 +551,8 @@ msgstr ""
 msgid "Create a new wallet to start using this app."
 msgstr ""
 
-msgid "Create bitcoin wallet"
-msgstr "Bitcoin portemonnee aanmaken"
+msgid "Create viacoin wallet"
+msgstr "Viacoin portemonnee aanmaken"
 
 msgid "Create personal wallet"
 msgstr ""
@@ -662,7 +662,7 @@ msgstr ""
 msgid "Duplicating wallet..."
 msgstr "Portemonnee dupliceren..."
 
-msgid "Each bitcoin wallet can generate billions of addresses from your 12-word recovery phrase. A new address is automatically generated and shown each time you receive a payment."
+msgid "Each viacoin wallet can generate billions of addresses from your 12-word recovery phrase. A new address is automatically generated and shown each time you receive a payment."
 msgstr ""
 
 msgid "Economy"
@@ -962,7 +962,7 @@ msgstr ""
 msgid "I understand"
 msgstr "Ik begrijp het"
 
-msgid "I understand that if this app is moved to another device or deleted, my bitcoin can only be recovered with the recovery phrase"
+msgid "I understand that if this app is moved to another device or deleted, my viacoin can only be recovered with the recovery phrase"
 msgstr ""
 
 msgid "I understand that my funds are held securely on this device, not by a company"
@@ -1070,7 +1070,7 @@ msgstr ""
 msgid "It's a ghost town in here"
 msgstr ""
 
-msgid "It's a good idea to avoid reusing addresses - this both protects your privacy and keeps your bitcoins secure against hypothetical attacks by quantum computers."
+msgid "It's a good idea to avoid reusing addresses - this both protects your privacy and keeps your viacoins secure against hypothetical attacks by quantum computers."
 msgstr ""
 
 msgid "It's important that you write your recovery phrase down correctly. If something happens to your wallet, you'll need it to recover your money. Please review and try again."
@@ -1229,8 +1229,8 @@ msgstr ""
 msgid "No Private Key"
 msgstr ""
 
-msgid "No backup, no bitcoin."
-msgstr "Geen backup, geen bitcoin."
+msgid "No backup, no viacoin."
+msgstr "Geen backup, geen viacoin."
 
 msgid "No contacts yet"
 msgstr "Nog geen contactpersonen"
@@ -1298,7 +1298,7 @@ msgstr ""
 msgid "Not right now"
 msgstr ""
 
-msgid "Not valid bitcoin address"
+msgid "Not valid viacoin address"
 msgstr ""
 
 msgid "Note"
@@ -1688,8 +1688,8 @@ msgstr ""
 msgid "Search a contact"
 msgstr ""
 
-msgid "Search or enter bitcoin address"
-msgstr "Zoeken of bitcoin adres invullen"
+msgid "Search or enter viacoin address"
+msgstr "Zoeken of viacoin adres invullen"
 
 msgid "Search your currency"
 msgstr "Zoek uw valuta"
@@ -1865,7 +1865,7 @@ msgstr "Bestedingsvoorstel niet gevonden"
 msgid "Spendable balance"
 msgstr ""
 
-msgid "Spending this balance will need significant Bitcoin network fees"
+msgid "Spending this balance will need significant Viacoin network fees"
 msgstr "Dit bedrag uitgeven vereist aanzienlijke transactiekosten"
 
 msgid "Status"
@@ -1895,7 +1895,7 @@ msgstr "Saldo Portemonnee opnemen..."
 msgid "THIS ACTION CANNOT BE REVERSED"
 msgstr "DEZE ACTIE IS ONOMKEERBAAR"
 
-msgid "Take control of your money, get started with bitcoin."
+msgid "Take control of your money, get started with viacoin."
 msgstr ""
 
 msgid "Tap and hold to show"
@@ -1925,14 +1925,14 @@ msgstr ""
 msgid "The Wallet Service URL"
 msgstr ""
 
-msgid "The amount of bitcoin immediately spendable from this wallet."
-msgstr "De hoeveelheid bitcoin die direct te besteden is vanuit deze portemonnee."
+msgid "The amount of viacoin immediately spendable from this wallet."
+msgstr "De hoeveelheid viacoin die direct te besteden is vanuit deze portemonnee."
 
-msgid "The amount of bitcoin stored in this wallet that is allocated as inputs to your pending transaction proposals. The amount is determined using unspent transaction outputs associated with this wallet and may be more than the actual amounts associated with your pending transaction proposals."
-msgstr "De hoeveelheid bitcoin opgeslagen in deze portemonnee die is toegewezen als invoer voor uw wachtende betalingsvoorstellen. De hoeveelheid is bepaald door te kijken naar ongebruikte transactie uitvoer geassocieerd met deze portemonnee en kan meer zijn dan de daadwerkelijke hoeveelheid geassocieerd met de wachtende betalingsvoorstellen."
+msgid "The amount of viacoin stored in this wallet that is allocated as inputs to your pending transaction proposals. The amount is determined using unspent transaction outputs associated with this wallet and may be more than the actual amounts associated with your pending transaction proposals."
+msgstr "De hoeveelheid viacoin opgeslagen in deze portemonnee die is toegewezen als invoer voor uw wachtende betalingsvoorstellen. De hoeveelheid is bepaald door te kijken naar ongebruikte transactie uitvoer geassocieerd met deze portemonnee en kan meer zijn dan de daadwerkelijke hoeveelheid geassocieerd met de wachtende betalingsvoorstellen."
 
-msgid "The amount of bitcoin stored in this wallet with less than 1 blockchain confirmation."
-msgstr "De hoeveelheid bitcoin opgeslagen in deze portemonnee met minder dan 1 blockchain bevestiging."
+msgid "The amount of viacoin stored in this wallet with less than 1 blockchain confirmation."
+msgstr "De hoeveelheid viacoin opgeslagen in deze portemonnee met minder dan 1 blockchain bevestiging."
 
 msgid "The derivation path"
 msgstr "Het derivatie pad"
@@ -1973,11 +1973,11 @@ msgstr "Het verzoek kon niet worden begrepen door de server"
 msgid "The spend proposal is not pending"
 msgstr "Het bestedingsvoorstel is niet meer in behandeling"
 
-msgid "The testnet is an alternative Bitcoin block chain, to be used for testing. Testnet coins are separate and distinct from actual bitcoins, and do not have any value. This allows application developers or bitcoin testers to experiment, without having to use real bitcoins."
+msgid "The testnet is an alternative Viacoin block chain, to be used for testing. Testnet coins are separate and distinct from actual viacoins, and do not have any value. This allows application developers or viacoin testers to experiment, without having to use real viacoins."
 msgstr ""
 
-msgid "The total amount of bitcoin stored in this wallet."
-msgstr "De totale hoeveelheid bitcoin opgeslagen in deze portemonnee."
+msgid "The total amount of viacoin stored in this wallet."
+msgstr "De totale hoeveelheid viacoin opgeslagen in deze portemonnee."
 
 msgid "The transaction history and every new incoming transaction are cached in the app. This feature clean this up and synchronizes again from the server"
 msgstr ""
@@ -1997,11 +1997,11 @@ msgstr ""
 msgid "This app is not available for your device."
 msgstr ""
 
-msgid "This app stores your bitcoin with cutting-edge security."
-msgstr "Deze app bewaart uw bitcoin met de nieuwste beveiliging."
+msgid "This app stores your viacoin with cutting-edge security."
+msgstr "Deze app bewaart uw viacoin met de nieuwste beveiliging."
 
-msgid "This bitcoin payment request has expired."
-msgstr "Dit bitcoin betalingsverzoek is verlopen."
+msgid "This viacoin payment request has expired."
+msgstr "Dit viacoin betalingsverzoek is verlopen."
 
 msgid "This field is only for users who, in previous versions (it's not supported anymore), set a password to protect their recovery phrase. This field is not for your encrypt password."
 msgstr ""
@@ -2018,7 +2018,7 @@ msgstr ""
 msgid "This recovery phrase was created with a password. To recover this wallet both the recovery phrase and password are needed."
 msgstr "Deze herstel zin is aangemaakt met een wachtwoord. Om deze portemonnee te herstellen heeft u de herstel zin en het wachtwoord nodig."
 
-msgid "This transaction amount is too small compared to current Bitcoin network fees. Spending these funds will need a Bitcoin network fee cost comparable to the funds itself."
+msgid "This transaction amount is too small compared to current Viacoin network fees. Spending these funds will need a Viacoin network fee cost comparable to the funds itself."
 msgstr ""
 
 msgid "This transaction could take a long time to confirm or could be dropped due to the low fees set by the sender."
@@ -2033,8 +2033,8 @@ msgstr "Tijdlijn"
 msgid "To"
 msgstr "Naar"
 
-msgid "To get started, you'll need to create a bitcoin wallet and get some bitcoin."
-msgstr "Om aan de slag te gaan zult u een bitcoin portemonnee moeten aanmaken en wat bitcoin moeten verkrijgen."
+msgid "To get started, you'll need to create a viacoin wallet and get some viacoin."
+msgstr "Om aan de slag te gaan zult u een viacoin portemonnee moeten aanmaken en wat viacoin moeten verkrijgen."
 
 msgid "To {{reason}} you must first add your BitPay account - {{email}}"
 msgstr ""
@@ -2093,7 +2093,7 @@ msgstr "Transacties zonder transactiekosten worden niet ondersteund."
 msgid "Transfer to Bitcoin Cash Wallet"
 msgstr ""
 
-msgid "Transfer to Bitcoin Wallet"
+msgid "Transfer to Viacoin Wallet"
 msgstr ""
 
 msgid "Transfer to Contact"
@@ -2384,14 +2384,14 @@ msgstr ""
 msgid "You can make contributions by signing up on our Crowdin community translation website. We’re looking forward to hearing from you!"
 msgstr "U kunt een bijdrage leveren door u aan te melden bij onze Crowdin gemeenschap vertalings website. Wij kijken er naar uit om van u te horen!"
 
-msgid "You can scan bitcoin addresses, payment requests, paper wallets, and more."
-msgstr "U kunt bitcoin adressen scannen, betalingsverzoeken, papieren portemonnees, en meer."
+msgid "You can scan viacoin addresses, payment requests, paper wallets, and more."
+msgstr "U kunt viacoin adressen scannen, betalingsverzoeken, papieren portemonnees, en meer."
 
 msgid "You can see the latest developments and contribute to this open source app by visiting our project on GitHub."
 msgstr "U kunt de laatste ontwikkelingen volgen en bijdragen aan deze open source app door onze project pagina te bezoeken op GitHub."
 
-msgid "You can spend bitcoin at millions of websites and stores worldwide."
-msgstr "U kunt met bitcoin betalen bij miljoenen websites en winkels over de hele wereld."
+msgid "You can spend viacoin at millions of websites and stores worldwide."
+msgstr "U kunt met viacoin betalen bij miljoenen websites en winkels over de hele wereld."
 
 msgid "You can still export it from \"Export Wallet\" option."
 msgstr ""
@@ -2402,8 +2402,8 @@ msgstr "U kunt het inwisselen voor valuta's zoals de Amerikaanse Dollar, de Euro
 msgid "You can use your Mercado Livre gift cards on your Mercado Pago account for everyday expenses like utilities and metro rides."
 msgstr ""
 
-msgid "You control your bitcoin."
-msgstr "U heeft de controle over uw bitcoin."
+msgid "You control your viacoin."
+msgstr "U heeft de controle over uw viacoin."
 
 msgid "You could sign the transaction later in your wallet details"
 msgstr ""
@@ -2414,10 +2414,10 @@ msgstr "Het is af te raden transactiekosten te kiezen hoger dan {{maxFeeRecommen
 msgid "Your BitPay Card is ready. Add funds to your card to start using it at stores and ATMs worldwide."
 msgstr "Uw BitPay Kaart is gereed. Voeg saldo toe aan uw kaart om deze te kunnen gebruiken in winkels en pinautomaten over de hele wereld."
 
-msgid "Your bitcoin wallet is ready!"
-msgstr "Uw bitcoin portemonnee is gereed!"
+msgid "Your viacoin wallet is ready!"
+msgstr "Uw viacoin portemonnee is gereed!"
 
-msgid "Your extended private keys are all that is needed to access your bitcoin funds. Be sure to protect your private keys and store them only on secure devices. BitPay does not have access to your private keys, so you alone are responsible for your keys. If you share key access with external services, you take responsibility for the risk of theft or breach. Only advanced users should handle extended private keys directly."
+msgid "Your extended private keys are all that is needed to access your viacoin funds. Be sure to protect your private keys and store them only on secure devices. BitPay does not have access to your private keys, so you alone are responsible for your keys. If you share key access with external services, you take responsibility for the risk of theft or breach. Only advanced users should handle extended private keys directly."
 msgstr ""
 
 msgid "Your fee is lower than recommended."
@@ -2468,7 +2468,7 @@ msgstr ""
 msgid "{{appName}} depends on Bitcore Wallet Service (BWS) for blockchain information, networking and Copayer synchronization. The default configuration points to https://bws.bitpay.com (BitPay's public BWS instance)."
 msgstr ""
 
-msgid "{{fee}} {{coin}} will be deducted for bitcoin networking fees."
+msgid "{{fee}} {{coin}} will be deducted for viacoin networking fees."
 msgstr ""
 
 msgid "{{updatingTxHistoryProgress}} transactions downloaded"
