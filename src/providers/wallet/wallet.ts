@@ -978,7 +978,7 @@ export class WalletProvider {
       prefs.language = this.languageProvider.getCurrent();
 
       // Set OLD wallet in bits to btc
-      prefs.unit = 'via'; // DEPRECATED
+      prefs.unit = 'mue'; // DEPRECATED
 
       updateRemotePreferencesFor(lodash.clone(clients), prefs).then(() => {
         this.logger.debug('Remote preferences saved for' + lodash.map(clients, (x: any) => {
@@ -1258,7 +1258,7 @@ export class WalletProvider {
 
       // not supported yet
       if (wallet.credentials.derivationStrategy != 'BIP44' || !wallet.canSign())
-        return reject(this.translate.instant('Exporting via QR not supported for this wallet'));
+        return reject(this.translate.instant('Exporting MUE QR not supported for this wallet'));
 
       var keys = this.getKeysWithPassword(wallet, password);
 
@@ -1335,7 +1335,7 @@ export class WalletProvider {
     if (coin == 'bch') {
       return 'bitcoincash';
     } else {
-      return 'viacoin';
+      return 'monetaryunit';
     }
   }
 
