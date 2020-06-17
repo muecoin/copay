@@ -54,7 +54,7 @@ export class CustomAmountPage {
       let _currency = parsedAmount.currency;
       this.amountUnitStr = parsedAmount.amountUnitStr;
 
-      if (_currency != 'VIA' && _currency != 'BCH') {
+      if (_currency != 'MUE' && _currency != 'BCH') {
         // Convert to BTC or BCH
         let amountUnit = this.txFormatProvider.satToUnit(parsedAmount.amountSat);
         var btcParsedAmount = this.txFormatProvider.parseAmount(this.wallet.coin, amountUnit, this.wallet.coin.toUpperCase());
