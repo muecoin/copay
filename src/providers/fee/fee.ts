@@ -81,7 +81,7 @@ export class FeeProvider {
 
   public getFeeLevels(coin: string): Promise<any> {
     return new Promise((resolve, reject) => {
-      coin = coin || 'via';
+      coin = coin || 'mue';
 
       if (this.cache.coin == coin && this.cache.updateTs > Date.now() - this.CACHE_TIME_TS * 1000) {
         return resolve({ levels: this.cache.data, fromCache: true });
@@ -93,7 +93,7 @@ export class FeeProvider {
         if (errLivenet) {
           return reject(this.translate.instant('Could not get dynamic fee'));
         }
-        walletClient.getFeeLevels('via', 'testnet', (errTestnet, levelsTestnet) => {
+        walletClient.getFeeLevels('mue', 'testnet', (errTestnet, levelsTestnet) => {
           if (errTestnet) {
             return reject(this.translate.instant('Could not get dynamic fee'));
           }
