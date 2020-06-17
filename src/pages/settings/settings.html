@@ -73,7 +73,7 @@
         <img src="assets/img/settings-icons/icon-network.svg" width="22">
       </ion-icon>
       <ion-label>
-        {{'Viacoin network fee policy' | translate}}
+        {{'MonetaryUnit network fee policy' | translate}}
       </ion-label>
     </button>
 
@@ -88,7 +88,7 @@
       </ion-note>
     </button>
 
-    <ion-item-divider *ngIf="walletsBtc.length">{{'Viacoin Wallets' | translate}}</ion-item-divider>
+    <ion-item-divider *ngIf="walletsBtc.length">{{'MonetaryUnit Wallets' | translate}}</ion-item-divider>
 
     <button ion-item *ngFor="let wallet of walletsBtc" (click)="openWalletSettingsPage(wallet.credentials.walletId)">
       <ion-icon item-start>
