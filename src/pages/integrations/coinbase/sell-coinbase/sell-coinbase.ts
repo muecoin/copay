@@ -64,7 +64,7 @@ export class SellCoinbasePage {
     private modalCtrl: ModalController,
     private platformProvider: PlatformProvider,
   ) {
-    this.coin = 'via';
+    this.coin = 'mue';
     this.isFiat = this.navParams.data.currency != 'BTC' ? true : false;
     this.amount = this.navParams.data.amount;
     this.currency = this.navParams.data.currency;
