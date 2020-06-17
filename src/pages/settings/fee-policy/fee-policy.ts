@@ -6,7 +6,7 @@ import { Logger } from '../../../providers/logger/logger';
 import { ConfigProvider } from '../../../providers/config/config';
 import { FeeProvider } from '../../../providers/fee/fee';
 
-const COIN = 'via';
+const COIN = 'mue';
 const NETWORK = 'livenet';
 
 @Component({
