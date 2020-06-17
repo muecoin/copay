@@ -10,7 +10,7 @@ export class ReleaseProvider {
 
   constructor(private http: HttpClient, private app: AppProvider) {
     this.LATEST_RELEASE_URL =
-      'https://api.github.com/repos/viacoin/copay/releases/latest';
+      'https://api.github.com/repos/muecoin/copay/releases/latest';
     this.appVersion = this.app.info.version;
   }
 
