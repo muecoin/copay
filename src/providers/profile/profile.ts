@@ -946,7 +946,7 @@ export class ProfileProvider {
       opts.m = 1;
       opts.n = 1;
       opts.networkName = 'livenet';
-      opts.coin = 'via';
+      opts.coin = 'mue';
       this.createWallet(opts).then((wallet: any) => {
         return resolve(wallet);
       }).catch((err) => {
