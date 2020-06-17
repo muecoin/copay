@@ -562,7 +562,7 @@ export class ConfirmPage {
         fee +
         ' ' +
         this.tx.coin.toUpperCase() +
-        ' will be deducted for viacoin networking fees.'; // TODO: translate
+        ' will be deducted for MonetaryUnit networking fees.'; // TODO: translate
       let warningMsg = this.verifyExcludedUtxos(wallet, sendMaxInfo);
 
       if (!_.isEmpty(warningMsg)) msg += '\n' + warningMsg;
@@ -689,7 +689,7 @@ export class ConfirmPage {
     if (this.paymentExpired) {
       this.popupProvider.ionicAlert(
         null,
-        this.translate.instant('This viacoin payment request has expired.')
+        this.translate.instant('This MonetaryUnit payment request has expired.')
       );
       return;
     }
