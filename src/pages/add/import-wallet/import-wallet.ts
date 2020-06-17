@@ -84,7 +84,7 @@ export class ImportWalletPage {
       derivationPath: [this.derivationPathByDefault, Validators.required],
       testnet: [false],
       bwsURL: [this.defaults.bws.url],
-      coin: ['via', Validators.required]
+      coin: ['mue', Validators.required]
     });
   }
 
