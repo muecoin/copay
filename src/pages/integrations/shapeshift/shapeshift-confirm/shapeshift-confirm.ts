@@ -359,13 +359,13 @@ export class ShapeshiftConfirmPage {
   };
 
   private getLegacyAddressFormat(addr: string, coin: string): string {
-    if (coin == 'via') return addr;
+    if (coin == 'mue') return addr;
     let a = this.bitcoreCash.Address(addr).toObject();
     return this.bitcore.Address.fromObject(a).toString();
   }
 
   private getNewAddressFormat(addr: string, coin: string): string {
-    if (coin == 'via') return addr;
+    if (coin == 'mue') return addr;
     let a = this.bitcore.Address(addr).toObject();
     return this.bitcoreCash.Address.fromObject(a).toString();
   }
