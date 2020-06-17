@@ -1,15 +1,15 @@
 {
   "name": "*PACKAGENAME*",
   "description": "*DESCRIPTION*",
-  "author": "the Viacoin team",
+  "author": "the MonetaryUnit team",
   "version": "*VERSION*",
   "keywords": [
-    "viacoin",
+    "monetaryunit",
     "wallet",
     "bitpay",
     "copay",
     "multisignature",
-    "viacore"
+    "muecoin"
   ],
   "main": "www/index.html",
   "title": "*USERVISIBLENAME*",
@@ -133,7 +133,7 @@
     "@zxing/ngx-scanner": "1.1.0-dev.c32019",
     "angular2-moment": "1.7.1",
     "bitauth": "git+https://github.com/bitpay/bitauth.git#copay",
-    "bitcore-wallet-client": "https://github.com/viacoin/viacore-wallet-client.git",
+    "bitcore-wallet-client": "https://github.com/muecoin/bitcore-wallet-client.git",
     "buffer-compare": "1.1.1",
     "cordova-android": "7.1.0",
     "cordova-clipboard": "1.1.1",
@@ -246,7 +246,7 @@
       "cordova-plugin-ionic-webview": {},
       "cordova-custom-config": {},
       "cordova-plugin-customurlscheme": {
-        "URL_SCHEME": "viacoin",
+        "URL_SCHEME": "monetaryunit",
         "SECOND_URL_SCHEME": "*PACKAGENAME*",
         "THIRD_URL_SCHEME": " ",
         "ANDROID_SCHEME": " ",
