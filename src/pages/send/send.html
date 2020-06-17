@@ -9,7 +9,7 @@
     <div class="send-header-wrapper">
       <span class="send-heading" translate>Recipient</span>
       <ion-item class="search-wrapper">
-        <ion-input placeholder="{{'Search or enter viacoin address' | translate}}" [(ngModel)]="search" (ngModelChange)="findContact(search)"></ion-input>
+        <ion-input placeholder="{{'Search or enter MonetaryUnit address' | translate}}" [(ngModel)]="search" (ngModelChange)="findContact(search)"></ion-input>
         <ion-icon item-end class="scan-icon" (click)="openScanner()">
           <img src="assets/img/scan-ico.svg">
         </ion-icon>
@@ -35,7 +35,7 @@
 
     <div class="card" *ngIf="walletBtcList && walletBtcList[0]">
       <ion-item-divider class="title">
-        <span translate>Transfer to Viacoin Wallet</span>
+        <span translate>Transfer to MonetaryUnit Wallet</span>
       </ion-item-divider>
 
       <ion-list>
@@ -85,6 +85,6 @@
     </div>
   </div>
   <div *ngIf="!hasBtcWallets && !hasBchWallets" class="no-wallet-message">
-    <span translate>To get started, you'll need to create a viacoin wallet and get some viacoin.</span>
+    <span translate>To get started, you'll need to create a MonetaryUnit wallet and get some MonetaryUnit.</span>
   </div>
 </ion-content>
