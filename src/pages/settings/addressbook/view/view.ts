@@ -41,7 +41,7 @@ export class AddressbookViewPage {
     this.email = this.navParams.data.contact.email;
 
     const cashAddress = this.bitcoreCash.Address.isValid(this.address, 'livenet');
-    this.coin = cashAddress ? 'bch' : 'via';
+    this.coin = cashAddress ? 'bch' : 'mue';
   }
 
   ionViewDidLoad() {
