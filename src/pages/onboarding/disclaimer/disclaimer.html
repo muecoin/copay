@@ -4,7 +4,7 @@
 <ion-content no-bounce>
   <h3 *ngIf="resume" class="title" translate>Quick review!</h3>
   <h3 *ngIf="!resume" class="title" translate>Almost done! Let's review.</h3>
-  <p translate class="top-description">Viacoin is different &ndash; it cannot be safely held with a bank or web service.</p>
+  <p translate class="top-description">MonetaryUnit is different &ndash; it cannot be safely held with a bank or web service.</p>
   <ion-list class="checkbox-list" no-lines text-wrap>
     <ion-item>
       <ion-label>
@@ -14,7 +14,7 @@
     </ion-item>
     <ion-item>
       <ion-label>
-        {{'I understand that if this app is moved to another device or deleted, my viacoin can only be recovered with the backup phrase' | translate}}.
+        {{'I understand that if this app is moved to another device or deleted, my MonetaryUnit can only be recovered with the backup phrase' | translate}}.
       </ion-label>
       <ion-checkbox [(ngModel)]="accepted.second"></ion-checkbox>
     </ion-item>
