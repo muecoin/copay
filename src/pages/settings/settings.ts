@@ -79,7 +79,7 @@ export class SettingsPage {
   ionViewWillEnter() {
     this.currentLanguageName = this.language.getName(this.language.getCurrent());
     this.walletsBtc = this.profileProvider.getWallets({
-      coin: 'via'
+      coin: 'mue'
     });
     this.walletsBch = this.profileProvider.getWallets({
       coin: 'bch'
@@ -187,7 +187,7 @@ export class SettingsPage {
   }
 
   public openHelpExternalLink(): void {
-    let url = this.appName == 'Copay' ? 'https://github.com/viacoin/copay/issues' : 'https://help.bitpay.com/bitpay-app';
+    let url = this.appName == 'Copay' ? 'https://github.com/muecoin/copay/issues' : 'https://help.bitpay.com/bitpay-app';
     let optIn = true;
     let title = null;
     let message = this.translate.instant('Help and support information is available at the website.');
