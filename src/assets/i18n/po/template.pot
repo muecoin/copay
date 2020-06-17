@@ -89,12 +89,12 @@ msgstr ""
 
 msgid ""
 <<<<<<< HEAD:src/assets/i18n/po/template.pot
-"All of your viacoin wallet balance may not be available for immediate "
+"All of your MonetaryUnit wallet balance may not be available for immediate "
 "spending."
 msgstr ""
 
 msgid ""
-"All signing devices must be added to this multisig wallet before viacoin "
+"All signing devices must be added to this multisig wallet before MonetaryUnit "
 "addresses can be created."
 msgstr ""
 
@@ -124,14 +124,14 @@ msgid ""
 "latest version."
 msgstr ""
 
-msgid "Anyone with your backup phrase can access or spend your viacoin."
+msgid "Anyone with your backup phrase can access or spend your MonetaryUnit."
 msgstr ""
 
 msgid "Apply changes"
 msgstr ""
 
 msgid ""
-"Approximate Viacoin network fee to transfer wallet's balance (with normal "
+"Approximate MonetaryUnit network fee to transfer wallet's balance (with normal "
 "priority)"
 msgstr ""
 
@@ -162,7 +162,7 @@ msgstr ""
 msgid "Average confirmation time"
 msgstr ""
 
-msgid "VIA wallets"
+msgid "MUE wallets"
 msgstr ""
 
 msgid "Backup"
@@ -196,47 +196,47 @@ msgid ""
 msgstr ""
 
 msgid ""
-"Viacoin (VIA) miner fees are high due to record demand for limited space on "
-"the Viacoin network. The Viacoin team does not receive viacoin "
+"MonetaryUnit (MUE) miner fees are high due to record demand for limited space on "
+"the MonetaryUnit network. The MonetaryUnit team does not receive MonetaryUnit "
 "miner fees."
 msgstr ""
 
-msgid "Viacoin Address"
+msgid "MonetaryUnit Address"
 msgstr ""
 
 msgid "Bitcoin Cash Wallets"
 msgstr ""
 
-msgid "Viacoin Network Fee Policy"
+msgid "MonetaryUnit Network Fee Policy"
 msgstr ""
 
-msgid "Viacoin Wallets"
+msgid "MonetaryUnit Wallets"
 msgstr ""
 
 msgid "Bitcoin cash Payment"
 msgstr ""
 
-msgid "Viacoin is a currency."
+msgid "MonetaryUnit is a currency."
 msgstr ""
 
 msgid ""
-"Viacoin is different &ndash; it cannot be safely held with a bank or web "
+"MonetaryUnit is different &ndash; it cannot be safely held with a bank or web "
 "service."
 msgstr ""
 
-msgid "Viacoin is secure, digital money."
+msgid "MonetaryUnit is secure, digital money."
 msgstr ""
 
-msgid "Viacoin miner fee"
+msgid "MonetaryUnit miner fee"
 msgstr ""
 
-msgid "Viacoin miner fees unusually high"
+msgid "MonetaryUnit miner fees unusually high"
 msgstr ""
 
-msgid "Viacoin network fee policy"
+msgid "MonetaryUnit network fee policy"
 msgstr ""
 
-msgid "Viacoin transactions include a fee collected by miners on the network."
+msgid "MonetaryUnit transactions include a fee collected by miners on the network."
 msgstr ""
 
 msgid "Broadcast Payment"
@@ -251,7 +251,7 @@ msgstr ""
 msgid "Buy Gift Card"
 msgstr ""
 
-msgid "Buying Viacoin..."
+msgid "Buying MonetaryUnit..."
 msgstr ""
 
 msgid "Buying Gift Card..."
@@ -482,7 +482,7 @@ msgstr ""
 msgid "Create a new wallet"
 msgstr ""
 
-msgid "Create viacoin wallet"
+msgid "Create MonetaryUnit wallet"
 msgstr ""
 
 msgid "Create personal wallet"
@@ -587,7 +587,7 @@ msgid "Duplicating wallet..."
 msgstr ""
 
 msgid ""
-"Each viacoin wallet can generate billions of addresses from your 12-word "
+"Each MonetaryUnit wallet can generate billions of addresses from your 12-word "
 "backup. A new address is automatically generated and shown each time you "
 "receive a payment."
 msgstr ""
@@ -801,7 +801,7 @@ msgid ""
 "fees may apply."
 msgstr ""
 
-msgid "Get news and updates from the Viacoin team"
+msgid "Get news and updates from the MonetaryUnit team"
 msgstr ""
 
 msgid "Get started"
@@ -886,7 +886,7 @@ msgstr ""
 
 msgid ""
 "I understand that if this app is moved to another device or deleted, my "
-"viacoin can only be recovered with the backup phrase"
+"MonetaryUnit can only be recovered with the backup phrase"
 msgstr ""
 
 msgid ""
@@ -984,7 +984,7 @@ msgstr ""
 
 msgid ""
 "It's a good idea to avoid reusing addresses - this both protects your "
-"privacy and keeps your viacoin secure against hypothetical attacks by "
+"privacy and keeps your MonetaryUnit secure against hypothetical attacks by "
 "quantum computers."
 msgstr ""
 
@@ -1133,7 +1133,7 @@ msgstr ""
 msgid "No access key defined"
 msgstr ""
 
-msgid "No backup, no viacoin."
+msgid "No backup, no MonetaryUnit."
 msgstr ""
 
 msgid "No contacts yet"
@@ -1181,7 +1181,7 @@ msgstr ""
 msgid "Non BIP44 wallet"
 msgstr ""
 
-msgid "Non eligible VIA wallets"
+msgid "Non eligible MUE wallets"
 msgstr ""
 
 msgid "Normal"
@@ -1193,7 +1193,7 @@ msgstr ""
 msgid "Not enough funds for fee"
 msgstr ""
 
-msgid "Not even the Viacoin team can access it."
+msgid "Not even the MonetaryUnit team can access it."
 msgstr ""
 
 msgid "Not funds found"
@@ -1202,7 +1202,7 @@ msgstr ""
 msgid "Not now"
 msgstr ""
 
-msgid "Not valid viacoin address"
+msgid "Not valid MonetaryUnit address"
 msgstr ""
 
 msgid "Note"
@@ -1310,7 +1310,7 @@ msgstr ""
 msgid "Paste the backup plain text code"
 msgstr ""
 
-msgid "Pay 0% fees to turn viacoin into dollars."
+msgid "Pay 0% fees to turn MonetaryUnit into dollars."
 msgstr ""
 
 msgid "Pay To"
@@ -1581,7 +1581,7 @@ msgstr ""
 msgid "Search a contact"
 msgstr ""
 
-msgid "Search or enter viacoin address"
+msgid "Search or enter MonetaryUnit address"
 msgstr ""
 
 msgid "Search your currency"
@@ -1605,7 +1605,7 @@ msgstr ""
 msgid "Self-signed Certificate"
 msgstr ""
 
-msgid "Selling Viacoin..."
+msgid "Selling MonetaryUnit..."
 msgstr ""
 
 msgid "Send"
@@ -1750,7 +1750,7 @@ msgstr ""
 msgid "Spendable balance"
 msgstr ""
 
-msgid "Spending this balance will need significant Viacoin network fees"
+msgid "Spending this balance will need significant MonetaryUnit network fees"
 msgstr ""
 
 msgid "Start"
@@ -1783,7 +1783,7 @@ msgstr ""
 msgid "THIS ACTION CANNOT BE REVERSED"
 msgstr ""
 
-msgid "Take control of your money, get started with viacoin."
+msgid "Take control of your money, get started with MonetaryUnit."
 msgstr ""
 
 msgid "Tap and hold to show"
@@ -1815,18 +1815,18 @@ msgstr ""
 msgid "The Wallet Service URL"
 msgstr ""
 
-msgid "The amount of viacoin immediately spendable from this wallet."
+msgid "The amount of MonetaryUnit immediately spendable from this wallet."
 msgstr ""
 
 msgid ""
-"The amount of viacoin stored in this wallet that is allocated as inputs to "
+"The amount of MonetaryUnit stored in this wallet that is allocated as inputs to "
 "your pending transaction proposals. The amount is determined using unspent "
 "transaction outputs associated with this wallet and may be more than the "
 "actual amounts associated with your pending transaction proposals."
 msgstr ""
 
 msgid ""
-"The amount of viacoin stored in this wallet with less than 1 blockchain "
+"The amount of MonetaryUnit stored in this wallet with less than 1 blockchain "
 "confirmation."
 msgstr ""
 
@@ -1876,7 +1876,7 @@ msgstr ""
 msgid "The spend proposal is not pending"
 msgstr ""
 
-msgid "The total amount of viacoin stored in this wallet."
+msgid "The total amount of MonetaryUnit stored in this wallet."
 msgstr ""
 
 msgid ""
@@ -1895,10 +1895,10 @@ msgstr ""
 msgid "This app is fantastic!"
 msgstr ""
 
-msgid "This app stores your viacoin with cutting-edge security."
+msgid "This app stores your MonetaryUnit with cutting-edge security."
 msgstr ""
 
-msgid "This viacoin payment request has expired."
+msgid "This MonetaryUnit payment request has expired."
 msgstr ""
 
 msgid ""
@@ -1912,8 +1912,8 @@ msgid ""
 msgstr ""
 
 msgid ""
-"This transaction amount is too small compared to current Viacoin network "
-"fees. Spending these funds will need a Viacoin network fee cost comparable "
+"This transaction amount is too small compared to current MonetaryUnit network "
+"fees. Spending these funds will need a MonetaryUnit network fee cost comparable "
 "to the funds itself."
 msgstr ""
 
@@ -1933,7 +1933,7 @@ msgstr ""
 msgid "To"
 msgstr ""
 
-msgid "To get started, you'll need to create a viacoin wallet and get some viacoin."
+msgid "To get started, you'll need to create a MonetaryUnit wallet and get some MonetaryUnit."
 msgstr ""
 
 msgid "Top up in progress..."
@@ -1989,7 +1989,7 @@ msgstr ""
 msgid "Transfer to Bitcoin Cash Wallet"
 msgstr ""
 
-msgid "Transfer to Viacoin Wallet"
+msgid "Transfer to MonetaryUnit Wallet"
 msgstr ""
 
 msgid "Transfer to Contact"
@@ -1998,7 +1998,7 @@ msgstr ""
 msgid "Try again in {{expires}}"
 msgstr ""
 
-msgid "Turn viacoin into dollars, swipe anywhere Visa&reg; is accepted."
+msgid "Turn MonetaryUnit into dollars, swipe anywhere Visa&reg; is accepted."
 msgstr ""
 
 msgid "Type the recovery phrase (usually 12 words)"
@@ -2262,7 +2262,7 @@ msgid ""
 "translation website. We’re looking forward to hearing from you!"
 msgstr ""
 
-msgid "You can scan viacoin addresses, payment requests, paper wallets, and more."
+msgid "You can scan MonetaryUnit addresses, payment requests, paper wallets, and more."
 msgstr ""
 
 msgid ""
@@ -2270,7 +2270,7 @@ msgid ""
 "by visiting our project on GitHub."
 msgstr ""
 
-msgid "You can spend viacoin at millions of websites and stores worldwide."
+msgid "You can spend MonetaryUnit at millions of websites and stores worldwide."
 msgstr ""
 
 msgid "You can still export it from Advanced &gt; Export."
@@ -2279,7 +2279,7 @@ msgstr ""
 msgid "You can trade it for other currencies like US Dollars, Euros, or Pounds."
 msgstr ""
 
-msgid "You control your viacoin."
+msgid "You control your MonetaryUnit."
 msgstr ""
 
 msgid "You could sign the transaction later in your wallet details"
@@ -2301,16 +2301,16 @@ msgstr ""
 msgid "Your Gift Cards"
 msgstr ""
 
-msgid "Your viacoin wallet is backed up!"
+msgid "Your MonetaryUnit wallet is backed up!"
 msgstr ""
 
-msgid "Your viacoin wallet is ready!"
+msgid "Your MonetaryUnit wallet is ready!"
 msgstr ""
 
 msgid ""
-"Your extended private keys are all that is needed to access your viacoin "
+"Your extended private keys are all that is needed to access your MonetaryUnit "
 "funds. Be sure to protect your private keys and store them only on secure "
-"devices. the Viacoin team does not have access to your private keys, so you alone are "
+"devices. the MonetaryUnit team does not have access to your private keys, so you alone are "
 "responsible for your keys. If you share key access with external services, "
 "you take responsibility for the risk of theft or breach. Only advanced "
 "users should handle extended private keys directly."
@@ -2355,9 +2355,9 @@ msgid "preparing..."
 msgstr ""
 
 msgid ""
-"{{appName}} depends on Viacore Wallet Service (BWS) for blockchain "
+"{{appName}} depends on MonetaryUnit Wallet Service (BWS) for blockchain "
 "information, networking and Copayer synchronization. The default "
-"configuration points to https://vws.viacoin.org (Viacoin's public BWS "
+"configuration points to https://vws.monetaryunit.org (MonetaryUnit's public BWS "
 "instance)."
 msgstr ""
 
