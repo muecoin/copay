@@ -58,7 +58,7 @@ export class SendPage {
   }
 
   ionViewWillEnter() {
-    this.walletsBtc = this.profileProvider.getWallets({ coin: 'via' });
+    this.walletsBtc = this.profileProvider.getWallets({ coin: 'mue' });
     this.walletsBch = this.profileProvider.getWallets({ coin: 'bch' });
     this.hasBtcWallets = !(_.isEmpty(this.walletsBtc));
     this.hasBchWallets = !(_.isEmpty(this.walletsBch));
