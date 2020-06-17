@@ -53,7 +53,7 @@ export class SellGlideraPage {
     private events: Events,
     private modalCtrl: ModalController
   ) {
-    this.coin = 'via';
+    this.coin = 'mue';
     this.isCordova = this.platformProvider.isCordova;
   }
 
