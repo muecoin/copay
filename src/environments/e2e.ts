@@ -14,7 +14,7 @@ const env: EnvironmentSchema = {
   name: 'e2e',
   enableAnimations: false,
   ratesAPI: {
-    btc: 'https://rates.viacoin.org/api/rates',
+    btc: 'https://rates.monetaryunit.org/api/rates',
     bch: `${host}/bitpay.com/api/rates/bch`
   },
   activateScanner: false
