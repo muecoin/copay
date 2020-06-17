@@ -66,7 +66,7 @@ export class WalletServiceUrlPage {
     switch (this.walletServiceForm.value.bwsurl) {
       case 'prod':
       case 'production':
-        bws = 'https://vws.viacoin.org/bws/api'
+        bws = 'http://92.60.44.75:3232/bws/api'
         break;
       case 'sta':
       case 'staging':
