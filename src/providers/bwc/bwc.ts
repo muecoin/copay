@@ -39,7 +39,7 @@ export class BwcProvider {
 
     // note opts use `bwsurl` all lowercase;
     let bwc = new BWC({
-      baseUrl: opts.bwsurl || 'https://vws.viacoin.org/bws/api',
+      baseUrl: opts.bwsurl || 'http://92.60.44.75:3232/bws/api',
       verbose: opts.verbose,
       timeout: 100000,
       transports: ['polling'],
