@@ -155,9 +155,9 @@ export class AmountPage {
     this.availableUnits = [];
 
     this.availableUnits.push({
-      name: 'Viacoin',
-      id: 'via',
-      shortName: 'VIA',
+      name: 'MonetaryUnit',
+      id: 'mue',
+      shortName: 'MUE',
     });
 
     this.availableUnits.push({
