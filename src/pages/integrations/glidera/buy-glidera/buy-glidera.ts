@@ -52,7 +52,7 @@ export class BuyGlideraPage {
     private walletProvider: WalletProvider,
     private modalCtrl: ModalController
   ) {
-    this.coin = 'via';
+    this.coin = 'mue';
     this.isCordova = this.platformProvider.isCordova;
   }
 
