@@ -188,11 +188,11 @@ export class CoinbasePage {
   }
 
   public goToBuyCoinbasePage(): void {
-    this.navCtrl.push(AmountPage, { nextPage: 'BuyCoinbasePage', currency: this.currency, coin: 'via', fixedUnit: true });
+    this.navCtrl.push(AmountPage, { nextPage: 'BuyCoinbasePage', currency: this.currency, coin: 'mue', fixedUnit: true });
   }
 
   public goToSellCoinbasePage(): void {
-    this.navCtrl.push(AmountPage, { nextPage: 'SellCoinbasePage', currency: this.currency, coin: 'via', fixedUnit: true })
+    this.navCtrl.push(AmountPage, { nextPage: 'SellCoinbasePage', currency: this.currency, coin: 'mue', fixedUnit: true })
   }
 
 }
