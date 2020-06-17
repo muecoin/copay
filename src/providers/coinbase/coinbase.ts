@@ -214,7 +214,7 @@ export class CoinbaseProvider {
   private _getNetAmount(amount, cb) {
     // Fee Normal for a single transaction (450 bytes)
     var txNormalFeeKB = 450 / 1000;
-    this.feeProvider.getFeeRate('via', 'livenet', 'normal').then((feePerKb) => {
+    this.feeProvider.getFeeRate('mue', 'livenet', 'normal').then((feePerKb) => {
       var feeBTC = (feePerKb * txNormalFeeKB / 100000000).toFixed(8);
 
       return cb(null, amount - parseInt(feeBTC, 10), parseInt(feeBTC, 10));
