@@ -60,7 +60,7 @@ export class JoinWalletPage {
       selectedSeed: ['new'],
       recoveryPhrase: [null],
       derivationPath: [this.derivationPathByDefault],
-      coin: ['via', Validators.required]
+      coin: ['mue', Validators.required]
     });
 
     this.seedOptions = [{
