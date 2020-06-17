@@ -54,7 +54,7 @@ export class WalletSelectorPage {
     if (this.wallets.length == 0) return;
     for (var i = 0; i <= this.wallets.length; i++) {
       if (this.wallets[i]) {
-        if (this.wallets[i].coin == 'via') this.walletsBtc.push(this.wallets[i]);
+        if (this.wallets[i].coin == 'mue') this.walletsBtc.push(this.wallets[i]);
         else this.walletsBch.push(this.wallets[i]);
       }
     }
