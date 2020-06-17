@@ -171,7 +171,7 @@ export class TxFormatProvider {
       // TODO: implement profileService.getWallet(tx.walletId)
       // TODO tx.wallet = profileService.getWallet(tx.walletId);
       tx.wallet = {
-        coin: "via",
+        coin: "mue",
         copayerId: "asdasdasdasd"
       }
       // hardcoded tx.wallet ^
@@ -215,7 +215,7 @@ export class TxFormatProvider {
     var alternativeIsoCode = settings.alternativeIsoCode;
 
     // If fiat currency
-    if (currency != 'BCH' && currency != 'VIA' && currency != 'sat') {
+    if (currency != 'BCH' && currency != 'MUE' && currency != 'sat') {
       amountUnitStr = this.filter.formatFiatAmount(amount) + ' ' + currency;
       amountSat = Number(this.rate.fromFiat(amount, currency, coin).toFixed(0));
     } else if (currency == 'sat') {
