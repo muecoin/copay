@@ -119,10 +119,10 @@ const configDefault: Config = {
     reconnectDelay: 5000,
     idleDurationMin: 4,
     settings: {
-      unitName: 'VIA',
+      unitName: 'MUE',
       unitToSatoshi: 100000000,
       unitDecimals: 8,
-      unitCode: 'via',
+      unitCode: 'mue',
       alternativeName: 'US Dollar',
       alternativeIsoCode: 'USD',
       defaultLanguage: '',
@@ -132,27 +132,27 @@ const configDefault: Config = {
 
   // Bitcore wallet service URL
   bws: {
-    url: 'https://vws.viacoin.org/bws/api'
+    url: 'http://92.60.44.75:3232/bws/api'
   },
 
   download: {
     bitpay: {
-      url: 'https://play.google.com/apps/testing/org.viacoin.copay'
+      url: 'https://play.google.com/apps/testing/org.muecoin.copay'
     },
     copay: {
-      url: 'https://play.google.com/apps/testing/org.viacoin.copay'
+      url: 'https://play.google.com/apps/testing/org.muecoin.copay'
     }
   },
 
   rateApp: {
     bitpay: {
       ios: 'http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?id=1149581638&pageNumber=0&sortOrdering=2&type=Purple+Software&mt=8',
-      android: 'https://play.google.com/store/apps/details?id=org.viacoin.copay',
+      android: 'https://play.google.com/store/apps/details?id=org.muecoin.copay',
       wp: ''
     },
     copay: {
       ios: 'http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?id=951330296&pageNumber=0&sortOrdering=2&type=Purple+Software&mt=8',
-      android: 'https://play.google.com/store/apps/details?id=org.viacoin.copay',
+      android: 'https://play.google.com/store/apps/details?id=org.muecoin.copay',
       wp: ''
     }
   },
@@ -178,11 +178,11 @@ const configDefault: Config = {
   },
 
   rates: {
-    url: 'https://explorer.viacoin.org:443/api/rates'
+    url: 'https://explorer.monetaryunit.org:443/api/rates'
   },
 
   release: {
-    url: 'https://api.github.com/repos/viacoin/copay/releases/latest'
+    url: 'https://api.github.com/repos/muecoin/copay/releases/latest'
   },
 
   pushNotificationsEnabled: true,
@@ -201,7 +201,7 @@ const configDefault: Config = {
   },
 
   blockExplorerUrl: {
-    btc: 'explorer.viacoin.org',
+    btc: 'explorer.monetaryunit.org',
     bch: 'bch-insight.bitpay.com/#'
   }
 };
