@@ -30,7 +30,7 @@
     <ngx-qrcode *ngIf="!loading && address" copy-to-clipboard="{{ address }}" qrc-value="{{qrAddress}}" qrc-class="aclass" qrc-errorCorrectionLevel="M"></ngx-qrcode>
     <div>
       <div *ngIf="!loading" class="text-address ellipsis" copy-to-clipboard="{{ address }}">
-        <img *ngIf="wallet.coin == 'via'" src="assets/img/icon-bitcoin.svg" alt="BTC" width="18" />
+        <img *ngIf="wallet.coin == 'mue'" src="assets/img/icon-bitcoin.svg" alt="BTC" width="18" />
         <img *ngIf="wallet.coin == 'bch'" src="assets/img/bitcoin-cash-logo.svg" alt="BCH" width="22" /> {{ address }}
       </div>
       <div *ngIf="loading" class="text-address">...</div>
@@ -53,7 +53,7 @@
       <span translate>Incomplete wallet</span>
     </div>
     <div class="subtitle">
-      <span translate>All signing devices must be added to this multisig wallet before viacoin addresses can be created.</span>
+      <span translate>All signing devices must be added to this multisig wallet before MonetaryUnit addresses can be created.</span>
     </div>
     <button ion-button class="button-standard" (click)="goCopayers()">
       {{'Open wallet' | translate}}
