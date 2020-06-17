@@ -40,7 +40,7 @@ export class AboutPage {
   }
 
   public openExternalLink(): void {
-    let url = 'https://github.com/viacoin/' + this.app.info.gitHubRepoName + '/tree/' + this.app.info.commitHash + '';
+    let url = 'https://github.com/muecoin/' + this.app.info.gitHubRepoName + '/tree/' + this.app.info.commitHash + '';
     let optIn = true;
     let title = this.translate.instant('Open GitHub Project');
     let message = this.translate.instant('You can see the latest developments and contribute to this open source app by visiting our project on GitHub.');
