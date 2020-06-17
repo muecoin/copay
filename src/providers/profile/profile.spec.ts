@@ -35,16 +35,16 @@ describe('Profile Provider', () => {
   const walletFixture = {
     api1: {
       id: 'eabee25b-d6ab-4b11-8b76-88570d826914',
-      cachedBalance: '10.00 VIA',
+      cachedBalance: '10.00 MUE',
       cachedBalanceUpdatedOn: null,
       credentials: {
-        coin: 'via',
+        coin: 'mue',
         network: 'livenet',
         n: 1,
         m: 1
       },
       status: {
-        availableBalanceSat: 1000000000 // 10 VIA
+        availableBalanceSat: 1000000000 // 10 MUE
       },
       isComplete: () => {
         return true;
@@ -71,16 +71,16 @@ describe('Profile Provider', () => {
     },
     api3: {
       id: 'qwert25b-d6ab-4b11-8b76-88570d833333',
-      cachedBalance: '1.50 VIA',
+      cachedBalance: '1.50 MUE',
       cachedBalanceUpdatedOn: null,
       credentials: {
-        coin: 'via',
+        coin: 'mue',
         network: 'testnet',
         n: 2,
         m: 2
       },
       status: {
-        availableBalanceSat: 150000000 // 1.50 VIA
+        availableBalanceSat: 150000000 // 1.50 MUE
       },
       isComplete: () => {
         return true;
@@ -99,7 +99,7 @@ describe('Profile Provider', () => {
   class PersistenceProviderMock {
     constructor() {}
     getBalanceCache(walletId: any) {
-      return Promise.resolve('0.00 VIA');
+      return Promise.resolve('0.00 MUE');
     }
     setWalletOrder(walletId: string, order: number) {
       return Promise.resolve();
@@ -153,7 +153,7 @@ describe('Profile Provider', () => {
 
     it('should get successfully all wallets when opts are provided', () => {
       const opts = {
-        coin: 'via',
+        coin: 'mue',
         network: 'testnet',
         n: 2,
         m: 2,
