@@ -157,7 +157,7 @@ export class PaperWalletPage {
         this.wallet.buildTxFromPrivateKey(this.privateKey, destinationAddress, null, (err: any, testTx: any) => {
           if (err) return reject(err);
           let rawTxLength = testTx.serialize().length;
-          this.feeProvider.getCurrentFeeRate('via', 'livenet').then((feePerKb: number) => {
+          this.feeProvider.getCurrentFeeRate('mue', 'livenet').then((feePerKb: number) => {
             let opts: any = {};
             opts.fee = Math.round((feePerKb * rawTxLength) / 2000);
             this.wallet.buildTxFromPrivateKey(this.privateKey, destinationAddress, opts, (err: any, tx: any) => {
